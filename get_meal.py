@@ -33,5 +33,7 @@ class Meal:
                             if allergy_list[int(menu_allergy) - 1] not in res["meal_allergy"]:
                                 res["meal_allergy"].append(allergy_list[int(menu_allergy) - 1])
                 res["meal_menu"].append(meal.split(" ")[0])
-
-            return res
+        else:
+            res["meal_menu"].append("오늘의 급식이 없습니다!")
+            res["meal_allergy"].append("오늘의 급식이 없습니다!")
+        return res
