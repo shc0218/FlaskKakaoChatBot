@@ -26,6 +26,7 @@
   "meal_menu": "오늘의 급식이 없습니다!"
 }
 ```
-## requirements
+## Requirements
 **[Flask](https://pypi.org/project/Flask/)**
+
 **[requests](https://pypi.org/project/requests/)**
