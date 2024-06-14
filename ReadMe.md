@@ -5,7 +5,7 @@
 급식 정보를 가져오는 [카카오톡 챗봇](https://business.kakao.com/info/chatbot/)의 콜백 서버
 ## 사용법
 ### 서버 세팅
-- 최소 실행시, config.json 생성, 필수 데이터 작성 후 재실행
+- 최초 실행시, config.json 생성, 필수 데이터 작성 후 재실행
 ### 챗봇 설정
 - 챗봇 생성 후, 스킬 생성
 - 스킬에 /meal을 연결
